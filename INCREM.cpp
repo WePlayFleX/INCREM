@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{ 
+	int count = 10;
+	cout << "count = " << count << endl;
+	cout << "count = " << ++count << endl;
+	cout << "count = " << count << endl;
+	cout << "count = " << count++ << endl;
+	cout << "count = " << count << endl;
+
+	system("pause");
+	return 0;
+}
